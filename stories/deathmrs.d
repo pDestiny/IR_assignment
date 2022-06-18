@@ -90,7 +90,7 @@ From Pitman's 'Commonsense Arithmetic'
 1. From Pitman's 'Commonsense Arithmetic', 1917:
    "Walks at the rate of 18 miles per day. Will he be there in
    time?"
-2. From Claude P‚lieu, 'San Francisco 9, Beach':
+2. From Claude Pâ€šlieu, 'San Francisco 9, Beach':
    "Please adjust your brakes; a great risk in 'dancing.'"
 3. From 'Transatlantic Review, 14':
    "The beginning is also the end."

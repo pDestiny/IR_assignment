@@ -18,14 +18,14 @@ from toolz.curried import *
 
 import nltk
 
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import SnowballStemmer, WordNetLemmatizer
+
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 nltk.download('stopwords')
 nltk.download("punkt")
-
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import SnowballStemmer, WordNetLemmatizer
 
 BASE_DIR = "stories"
 
@@ -38,12 +38,6 @@ def load_data(fn):
         doc_data = f.read()
     return doc_data
 
-"""
-todo: construct inverted index by spimi algorithm.
-"""
-# inverted index construction by spimi algorithm
-def spimi(docs_fns):
-    ...
 
 """
 contraction : words or combinations, but one of the most straight forward  
@@ -64,7 +58,7 @@ def rm_etcs(tokens):
 
     rm_punc = map(lambda word: punctuation_re.sub('', word))
     # remove number
-    regex = re.compile(r'[\d`]+')
+    regex = re.compile(r'[\d`_]+')
     rm_num = map(lambda word: regex.sub('', word))
     # remove stop words
     rm_stopword = filter(lambda x: x.lower() not in stw)
@@ -81,8 +75,10 @@ stemize = map(stemmer.stem)
 lemmatizer = WordNetLemmatizer()
 lemmatize = map(lemmatizer.lemmatize)
 
+tolower = map(str.lower)
+
 # preprocess runner
-sent_preprocess = compose(stemize, rm_etcs, tokenize, rm_contraction)
+sent_preprocess = compose(tolower, lemmatize, stemize, rm_etcs, tokenize, rm_contraction)
 
 
 if __name__ == "__main__":

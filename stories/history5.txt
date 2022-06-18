@@ -595,23 +595,23 @@ change the strategic situation very quickly!
 
               3
 
-            €€ €€
-            €€ €€
+            √õ√õ √õ√õ
+            √õ√õ √õ√õ
  
-            €€ €€
-            €€ €€
-   ‹‹‹ ‹‹‹         ‹‹‹ ‹‹‹
-   €€€ €€€         €€€ €€€
+            √õ√õ √õ√õ
+            √õ√õ √õ√õ
+   √ú√ú√ú √ú√ú√ú         √ú√ú√ú √ú√ú√ú
+   √õ√õ√õ √õ√õ√õ         √õ√õ√õ √õ√õ√õ
 2                           4
-   €€€ €€€         €€€ €€€
-   ﬂﬂﬂ ﬂﬂﬂ         ﬂﬂﬂ ﬂﬂﬂ
+   √õ√õ√õ √õ√õ√õ         √õ√õ√õ √õ√õ√õ
+   √ü√ü√ü √ü√ü√ü         √ü√ü√ü √ü√ü√ü
 
-            €€ €€
-            €€ €€          ‹‹‹
-                     stack €€€
-            €€ €€
-            €€ €€  discard €€€
-                           ﬂﬂﬂ
+            √õ√õ √õ√õ
+            √õ√õ √õ√õ          √ú√ú√ú
+                     stack √õ√õ√õ
+            √õ√õ √õ√õ
+            √õ√õ √õ√õ  discard √õ√õ√õ
+                           √ü√ü√ü
               1
 
 In the above diagram, Player 1 deals. After the deal but before play begins,
@@ -747,7 +747,7 @@ variety of the area.
 The Easter Comet:
 
 The cold wind blew up the mountainside and rattled the loose top of the
-billy. Birgit tapped the lid to reseat it. Franáois measured instant coffee into
+billy. Birgit tapped the lid to reseat it. Fran‚Ä°ois measured instant coffee into
 the cups. I lay on my back nearby, peering up through Dannie's binoculars
 in search of the elusive fuzzy Comet.
 
@@ -769,7 +769,7 @@ overflow accommodation in the town in case more people turned up than
 could fit in the hostel. I bought enough food for a small army.
 
     In the event, there were never more than eight people staying at the hostel
-on any given day over the weekend. They were: Birgit and Franáois
+on any given day over the weekend. They were: Birgit and Fran‚Ä°ois
 (Canada), Margaret and Michael and Andrew (US), Derek (England), Ina
 (Germany), Joerg and Madelene and Marilene (Australia). (That's ten
 people, but Madelene and Marilene stayed only one night.) However, two
